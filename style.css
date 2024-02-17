@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #313131;
+    color: aliceblue;
+}
+
+.center  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#clock{
+    font-size: 20px;
+    background-color: darkorange;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
