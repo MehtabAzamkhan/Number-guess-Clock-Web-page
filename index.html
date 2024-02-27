@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1 class="head">Number Guessing Game</h1>
     <div class="center">
-    
-        <div class="time-section">
-            <div id="banner"><span>This is your Time</span></div>
-            <div id="clock"></div>
+      <div class="time-section">
+        <div id="banner"><span>This is your Time</span></div>
+        <div id="clock"></div>
+      </div>
+      <div class="content-section">
+        <div class="wrapper">
+          <p>Try and guess a random number between 1 and 100</p>
+          <p>You have 10 attempts to guess the right number</p>
         </div>
-        <div class="content-section">
-            <div class="wrapper">
-                
-                <p>Try and guess a random number between 1 and 100</p>
-                <p>You have 10 attempts to guess the right number</p>
-            </div>
-        </div>
+      </div>
     </div>
 
     <form class="form">
-        <label for="guessfield" id="guess">Guess a Number</label>
-        <input type="text" id="guessfield" class="guessfield">
-        <input type="submit" id="subt" value="submit guess" class="guesssubmit">
+      <label for="guessfield" id="guess">Guess a Number</label>
+      <input type="text" id="guessfield" class="guessfield" />
+      <input type="submit" id="subt" value="submit guess" class="guesssubmit" />
     </form>
 
     <div class="resultparas">
-        <p>Previous Guesses: <span class="guesses"></span></p>
-        <p>Guesses Remaining: <span class="lastResult">10</span></p>
-        <p class="lowORhi"></p>
+      <p>Previous Guesses: <span class="guesses"></span></p>
+      <p>Guesses Remaining: <span class="lastResult">10</span></p>
+      <p class="lowORhi"></p>
     </div>
-
-</body>
-<script src="code.js"></script>
+  </body>
+  <script src="code.js"></script>
 </html>

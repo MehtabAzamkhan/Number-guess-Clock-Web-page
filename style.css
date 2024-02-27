@@ -1,78 +1,79 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .head {
-    text-align: center;
-    font-size: 50px;
-    border: 2px solid blanchedalmond;
+  text-align: center;
+  font-size: 50px;
+  border: 2px solid blanchedalmond;
 }
 
 body {
-    background-color: #313131;
-    color: aliceblue;
+  background-color: #313131;
+  color: aliceblue;
 }
 
 .form {
-    font-size: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 40px;
-    gap: 40px;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  gap: 40px;
 }
 
 input {
-    font-size: 36px;
-    /* Other styles if needed */
+  font-size: 36px;
+  /* Other styles if needed */
 }
 
 .center {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .time-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
 }
 
 #banner {
-    font-size: 18px;
-    margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 #clock {
-    font-size: 20px;
-    background-color: darkorange;
-    padding: 20px 50px;
-    border-radius: 10px;
+  font-size: 20px;
+  background-color: darkorange;
+  padding: 20px 50px;
+  border-radius: 10px;
 }
 
 .content-section {
-    background-color: #212121;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
-h1, p {
-    margin-bottom: 5px;
-    font-size: 20px; /* Change 'small' to a specific value or unit */
+h1,
+p {
+  margin-bottom: 5px;
+  font-size: 20px; /* Change 'small' to a specific value or unit */
 }
 
 .resultparas {
-    font-size: 40px;
-    text-align: center;
+  font-size: 40px;
+  text-align: center;
 }
